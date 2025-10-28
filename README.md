@@ -10,16 +10,13 @@ Reproducible simulation code with paired bootstrap tests, block bootstrap, effec
 
 ---
 
-## 📦 Install
+## 📦 Install & Run
 
-```bash
-git clone https://github.com/YOUR-USERNAME/b2plc.git
-cd b2plc
-python -m venv .venv && source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
-pip install -r requirements.txt
+1. Download the main simulation script from GitHub:
+   [Final_B2plusPLC_ver1_1_COMPLETE.py](https://github.com/JinHyeong-Lee7534/medical-decision-inspired-control/blob/main/Final_B2plusPLC_ver1_１_COMPLETE.py)
 ```
 
-## ▶️ Quick Start
+## ▶️ Quick Start： Run it in your local Python environment (Python 3.8+)
 
 ```bash
 python Final_B2plusPLC_ver1_1_COMPLETE.py --N 30000 --boot 300 --seed 4242
